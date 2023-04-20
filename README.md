@@ -5,7 +5,7 @@
 Data-Structure_AND_Algorithm
 
 
-<h2 align="center"> ✨DSA using C++✨ </h2>
+<h2 align="center"> ✨DSA using Java✨ </h2>
 <p align="center">
 
 
