@@ -1,8 +1,5 @@
-﻿# DSA
-��#� �D�S�A�
-�
-�
-Data-Structure_AND_Algorithm
+
+<p align="center">Data-Structure_AND_Algorithm</p>
 
 
 <h2 align="center"> ✨DSA using Java✨ </h2>
