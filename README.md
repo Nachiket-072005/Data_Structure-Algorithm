@@ -1,5 +1,5 @@
 
-<p align="center">Data-Structure_AND_Algorithm</p>
+<p align="center">Data-Structures_AND_Algorithms</p>
 
 
 <h2 align="center"> ✨DSA using Java✨ </h2>
