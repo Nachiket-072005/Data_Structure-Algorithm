@@ -10,12 +10,12 @@ public class Palindromic_Pattern_With_Numbers {
             }
 
             //numbers
-            //descending
+            //descending order
             for(int j=i; j>=1; j--) {
                 System.out.print(j);
             }
 
-            //ascending
+            //ascending order
             for(int j=2; j<=i; j++){
                 System.out.print(j);
             }
