@@ -1,5 +1,7 @@
 public class Max_SubArrays_Sum {
 
+    //This is the BROUTE FORCE to solve this solve problem because in this problem TIME COMPLEXITY = O(n^3)
+
     public static void maxSubarraySum(int numbers[]) {
         int maxSum = Integer.MIN_VALUE;
         int minSum = Integer.MAX_VALUE;
@@ -27,7 +29,7 @@ public class Max_SubArrays_Sum {
     }
 
     public static void main(String args[]) {
-        int numbers[] = { 2, 4, 6, 8, 10 };
+        int numbers[] = { 1, -2, 6, -1, 3 };
         maxSubarraySum(numbers);
     }
 }
