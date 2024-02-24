@@ -1,4 +1,4 @@
-public class JavaBasic003 {
+public class JavaBasic003_variables_in_Java {
     public static void main(String args[]) {
         int a = 10;
         int b = 5;

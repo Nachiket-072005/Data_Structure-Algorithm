@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class JavaBasic007 {
+public class JavaBasic007_product_of_a_b {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         float a = sc.nextFloat();

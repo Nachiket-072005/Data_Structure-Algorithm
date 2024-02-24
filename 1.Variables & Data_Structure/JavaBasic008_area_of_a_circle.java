@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class JavaBasic008 {
+public class JavaBasic008_area_of_a_circle {
     public static void main(String args[]) {
         float area;
 

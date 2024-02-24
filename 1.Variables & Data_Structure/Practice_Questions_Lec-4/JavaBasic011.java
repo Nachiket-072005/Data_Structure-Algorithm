@@ -11,7 +11,7 @@ public class JavaBasic011 {
         float pen = sc.nextFloat();
         float eraser = sc.nextFloat();
 
-        float gst = (pencil + pen + eraser) * (0.18f);
+        float gst = ((pencil * 0.18f) + (pen * 0.18f) + (eraser * 0.18f)); 
         float totalBill = (pencil + pen + eraser) + gst;
         System.out.println(totalBill);
     }
