@@ -1,4 +1,3 @@
-package Operators;
 public class JavaBasic018 {
     public static void main(String args[]) {
         int x = 10, y = 5;
