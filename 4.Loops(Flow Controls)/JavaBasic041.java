@@ -9,6 +9,6 @@ public class JavaBasic041 {
             rev = (rev * 10) + lastDigit;
             n /= 10;
         }
-        System.out.print(rev);
+        System.out.println(rev);
     }
 }

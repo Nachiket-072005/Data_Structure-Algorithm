@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 // Question 2 : Write a program that reads a set of integers, and then prints the sum of the even and odd integers.
