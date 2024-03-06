@@ -1,4 +1,3 @@
-
 public class Decimal_To_Binary_Convert {
 
     public static void decToBin(int n) {

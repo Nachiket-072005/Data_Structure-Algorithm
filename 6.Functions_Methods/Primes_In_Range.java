@@ -1,4 +1,3 @@
-
 public class Primes_In_Range {
 
     public static boolean isPrime(int n) {
