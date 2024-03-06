@@ -1,4 +1,3 @@
-
 public class To_Check_PrimeNo_2 {
     // This is the optimised solution for prime no
     public static boolean isPrime(int n) {
@@ -15,6 +14,6 @@ public class To_Check_PrimeNo_2 {
     }
 
     public static void main(String args[]) {
-        System.out.println(isPrime(4));
+        System.out.println(isPrime(2));
     }
 }
