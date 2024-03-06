@@ -1,4 +1,3 @@
-
 public class To_Check_PrimeNo_1 {
 
     public static boolean isPrime(int n) {
@@ -18,6 +17,6 @@ public class To_Check_PrimeNo_1 {
     }
 
     public static void main(String args[]) {
-        System.out.println(isPrime(3));
+        System.out.println(isPrime(12));
     }
 }

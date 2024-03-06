@@ -1,4 +1,3 @@
-
 public class JavaBasic062 {
 
     public static int factorial(int n) {

@@ -1,4 +1,3 @@
-
 public class JavaBasic060 {
 
     public static int prod(int a, int b) {

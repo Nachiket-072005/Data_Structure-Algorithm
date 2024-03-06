@@ -1,4 +1,3 @@
-
 public class JavaBasic063 {
     // func1 to calc sum of 2 nums
     public static int sum(int a, int b) {

@@ -1,4 +1,3 @@
-
 public class JavaBasic064 {
 
     public static int sum(int a, int b) {

@@ -1,4 +1,3 @@
-
 public class JavaBasic059 {
 
     public static void swap(int a, int b) {

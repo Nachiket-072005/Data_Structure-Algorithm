@@ -1,4 +1,3 @@
-
 public class JavaBasic057 {
 
     public static void printHelloWorld() {
