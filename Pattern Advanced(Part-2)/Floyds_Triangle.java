@@ -13,6 +13,6 @@ public class Floyds_Triangle {
         }
     }
     public static void main(String args[]) {
-        floyds_Triangle(4);
+        floyds_Triangle(5);
     }
 }
