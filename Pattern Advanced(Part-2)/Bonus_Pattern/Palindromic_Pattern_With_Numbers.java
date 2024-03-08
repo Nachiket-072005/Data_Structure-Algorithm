@@ -24,6 +24,6 @@ public class Palindromic_Pattern_With_Numbers {
         }
     }
     public static void main(String args[]) {
-        palindromic_Pattern(8);
+        palindromic_Pattern(5);
     }
 }
