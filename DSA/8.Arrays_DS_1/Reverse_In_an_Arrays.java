@@ -1,4 +1,4 @@
-public class Reverse_In_Arrays {
+public class Reverse_In_an_Arrays {
 
     public static void reverse(int numbers[]) {
         int first = 0, last = numbers.length - 1;
