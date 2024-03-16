@@ -1,5 +1,3 @@
-package Practice_Questions_Arrays;
-
 public class first_Question {
 
     public static boolean containsDuplicate(int nums[]) {
