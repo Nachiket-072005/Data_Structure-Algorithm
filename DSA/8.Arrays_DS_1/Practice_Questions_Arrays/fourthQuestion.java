@@ -1,6 +1,6 @@
 public class fourthQuestion {
     public static int trapped(int height[]) {
-        int n = height.length - 1;
+        int n = height.length;
 
         int res = 0, l = 0, r = n - 1;
         int lmax = height[l], rmax = height[r];
