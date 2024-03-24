@@ -1,4 +1,4 @@
-public class Diagonal_Sum {
+public class Diagonal_Sum_BRUTE_FORCE {
     //Time Complexity = O(n^2)
     public static int diagonalSum(int matrix[][]) {
         int sum = 0;
