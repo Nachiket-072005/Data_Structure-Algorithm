@@ -1,5 +1,3 @@
-package Practice_Questions;
-
 import java.util.Scanner;
 
 public class que1 {
@@ -16,6 +14,7 @@ public class que1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine();
+        sc.close();
         System.out.println(countToLowercase(name));
     }
 }
