@@ -1,4 +1,4 @@
-public class Copy_Constructor {
+public class Shallow_Copy_Constructor {
     public static void main(String[] args) {
         Student s1 = new Student();
         s1.name = "Nachiket";
@@ -25,6 +25,7 @@ class Student {
     String password;
     int marks[];
 
+    //shallow copy constructor
     Student(Student s1) {
         marks = new int[3];
         this.name = s1.name;
