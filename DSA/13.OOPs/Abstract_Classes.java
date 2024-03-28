@@ -9,7 +9,7 @@ public class Abstract_Classes {
         // Chicken c = new Chicken();
         // c.eat();
         // c.walk();
-        Mustang myHorse = new Mustang();
+        Mustang myHorse = new Mustang();    
     }
 }
 
