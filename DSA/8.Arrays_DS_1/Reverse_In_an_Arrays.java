@@ -4,7 +4,7 @@ public class Reverse_In_an_Arrays {
         int first = 0, last = numbers.length - 1;
 
         while (first < last) {
-            // swap
+            // swapping traditional method to exchange values
             int temp = numbers[last];
             numbers[last] = numbers[first];
             numbers[first] = temp;
