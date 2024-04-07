@@ -1,6 +1,6 @@
 public class Max_SubArrays_Sum {
 
-    //This is the BROUTE FORCE to solve this solve problem because in this problem TIME COMPLEXITY = O(n^3)
+    //This is the BROUTE FORCE approach to solve this problem because in this problem TIME COMPLEXITY = O(n^3)
 
     public static void maxSubarraySum(int numbers[]) {
         int maxSum = Integer.MIN_VALUE;
