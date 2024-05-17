@@ -25,8 +25,8 @@ public class que3 {
                 transpose[j][i] = matrix[i][j];
             }
         }
-
         // print transpose matrix
+        System.out.println("After Converted into Transpose Matrix:");
         printMatrix(transpose);
     }
 }
