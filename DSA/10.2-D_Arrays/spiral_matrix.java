@@ -5,6 +5,7 @@ public class spiral_matrix {
         int startCol = 0;
         int endCol = matrix[0].length - 1;
 
+        //This works for both matrix odd or even.
         while (startRow <= endRow && startCol <= endCol) {
             // top
             for (int j = startCol; j <= endCol; j++) {
