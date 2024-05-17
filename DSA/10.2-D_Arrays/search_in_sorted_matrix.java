@@ -14,6 +14,7 @@ public class search_in_sorted_matrix {
         // }
         // System.out.println("Key is not found!");
         // return false;
+
         // Special Case - 2:
         int row = matrix.length - 1, col = 0;
         while (col < matrix.length && row >= 0) {
