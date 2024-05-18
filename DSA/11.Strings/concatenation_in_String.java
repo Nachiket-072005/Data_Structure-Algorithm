@@ -3,6 +3,6 @@ public class concatenation_in_String {
         String firstName = "Nachiket";
         String lastName = "Prajapati";
         String fullName = firstName + " " + lastName;
-        System.out.println(fullName);
+        System.out.println(fullName + " is this.");
     }
 }
