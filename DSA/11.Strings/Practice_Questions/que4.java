@@ -1,5 +1,8 @@
 import java.util.Arrays;
 
+/*What is the meaning of anagrams? 
+--> If two strings contain the same character but in a different order, they can be said to be anagrams.
+ */
 public class que4 {
     public static void checkAnagrams(String str1, String str2) {
         // Convert String into lowerCase. why? Because we don't have to check separately
