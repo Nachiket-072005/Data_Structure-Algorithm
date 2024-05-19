@@ -10,7 +10,7 @@ public class substring_function {
 
     public static void main(String[] args) {
         String str = "HelloWorld";
-        // Inbuilt Property to get substring.
+        // Inbuilt Property/Method to get substring.
         System.out.println(str.substring(0, 5));
         // System.out.println(subString(str, 0, 5));
     }
