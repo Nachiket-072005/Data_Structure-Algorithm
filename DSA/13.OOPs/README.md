@@ -6,5 +6,5 @@
 | **private** |   +   |         |                     |                      |       |
 
 
-**+** : accessible
+**+** : accessible \n
 **blank** : not accessible
