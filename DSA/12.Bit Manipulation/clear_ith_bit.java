@@ -3,6 +3,7 @@ public class clear_ith_bit {
         int bitMask = ~(1 << i);
         return n & bitMask;
     }
+
     public static void main(String[] args) {
         System.out.println(clearIthBit(10, 1));
     }
