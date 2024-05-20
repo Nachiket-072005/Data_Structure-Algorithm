@@ -10,17 +10,22 @@ public class update_ith_bit {
     }
 
     public static int updateIthBit(int n, int i, int newBit) {
+        // First Approach:-
+
         // if(newBit == 0) {
-        //     return clearIthBit(n, i);
+        // return clearIthBit(n, i);
         // }
         // else {
-        //     return setIthbit(n, i);
+        // return setIthbit(n, i);
         // }
-        
+
+        // Second Approach:-
+
         n = clearIthBit(n, i);
         int bitMask = newBit << i;
         return n | bitMask;
     }
+
     public static void main(String[] args) {
         System.out.println(updateIthBit(10, 2, 1));
     }
