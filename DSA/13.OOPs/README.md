@@ -1,4 +1,4 @@
-|            | Class | Package | Subclass (same pkg) | Subclass (diff pkg) | World |
+|            | Class | Package | Subclass (same pkg) | Subclass (diff pkg) | World (diff pkg & not subclass) |
 |------------|-------|---------|---------------------|----------------------|-------|
 | **public** |   +   |    +    |          +          |          +           |   +   |
 | **protected** |   +   |    +    |          +          |          +           |       |
