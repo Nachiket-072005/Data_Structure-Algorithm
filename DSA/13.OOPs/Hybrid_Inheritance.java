@@ -1,5 +1,6 @@
 public class Hybrid_Inheritance {
     public static void main(String[] args) {
+        // Hybrid Inheritance
         Bird b1 = new Bird();
         b1.fly();
         b1.breath();
@@ -30,7 +31,7 @@ class Animal {
     }
 }
 
-class Mammal extends Animal{
+class Mammal extends Animal {
     void walk() {
         System.out.println("Walks");
     }
@@ -78,7 +79,7 @@ class Bird extends Animal {
     }
 }
 
-class Peacock extends Bird{
+class Peacock extends Bird {
     void peacock() {
         System.out.println("Peacock");
     }
