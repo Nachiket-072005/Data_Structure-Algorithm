@@ -6,6 +6,7 @@ public class Access_Modifire {
         u1.setPassword("n@chiket");
     }
 }
+
 class BankAccount {
     public String userName;
     private String password;
