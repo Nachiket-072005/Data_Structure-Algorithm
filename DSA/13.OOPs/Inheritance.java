@@ -1,4 +1,5 @@
 public class Inheritance {
+    // This type of inheritance is called Single Level Inheritance.
     public static void main(String[] args) {
         Fish f1 = new Fish();
         f1.eat();
