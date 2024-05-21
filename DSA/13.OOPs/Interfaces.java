@@ -7,7 +7,7 @@ public class Interfaces {
 
 interface ChessPlayer {
     void move();
-} 
+}
 
 class Queen implements ChessPlayer {
     public void move() {
