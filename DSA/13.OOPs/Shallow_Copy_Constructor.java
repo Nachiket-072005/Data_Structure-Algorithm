@@ -12,8 +12,8 @@ public class Shallow_Copy_Constructor {
         s2.password = "xyz";
         s1.marks[2] = 100;
 
-        for(int i=0; i<3; i++) {
-            System.out.println(s2.marks[i]);   
+        for (int i = 0; i < 3; i++) {
+            System.out.println(s2.marks[i]);
         }
 
     }
@@ -25,7 +25,7 @@ class Student {
     String password;
     int marks[];
 
-    //shallow copy constructor
+    // shallow copy constructor
     Student(Student s1) {
         marks = new int[3];
         this.name = s1.name;
