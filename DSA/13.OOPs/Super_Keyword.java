@@ -7,6 +7,7 @@ public class Super_Keyword {
 
 class Animal {
     String color;
+
     Animal() {
         System.out.println("Animal Constructor is called");
     }
