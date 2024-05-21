@@ -1,5 +1,6 @@
 public class Hirarcheical_Inheritance {
     public static void main(String[] args) {
+        // Hirarcheical Inheritance
         Bird b1 = new Bird();
         b1.fly();
         b1.breath();
@@ -27,7 +28,7 @@ class Animal {
     }
 }
 
-class Mammal extends Animal{
+class Mammal extends Animal {
     void walk() {
         System.out.println("Walks");
     }
