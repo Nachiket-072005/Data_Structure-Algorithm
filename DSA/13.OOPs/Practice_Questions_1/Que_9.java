@@ -8,6 +8,7 @@ public class Que_9 {
 
 class Test {
     static int marks;
+
     void set_marks(int marks) {
         this.marks = marks;
     }

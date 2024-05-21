@@ -9,6 +9,7 @@ public class Que_10 {
 class Test {
     static int a = 10;
     static int b;
+
     static void changeB() {
         b = a * 3;
     }
