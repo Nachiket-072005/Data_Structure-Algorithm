@@ -6,7 +6,8 @@ public class Polymorphism_Method_Overloading {
         System.out.println(c1.sum(1, 2, 3));
     }
 }
-//Compile Time Polymorphims
+
+// Compile Time Polymorphims, It's also called Static Polymorphisms.
 class Calculator {
     int sum(int a, int b) {
         return a + b;
