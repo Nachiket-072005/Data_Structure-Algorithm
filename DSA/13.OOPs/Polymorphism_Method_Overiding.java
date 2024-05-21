@@ -7,10 +7,11 @@ public class Polymorphism_Method_Overiding {
     }
 }
 
+// Run Time Polymorphisms, It's also called Dynamic Polymorphisms.
 class Animal {
     void eat() {
         System.out.println("Eats Anything");
-    } 
+    }
 }
 
 class Deer extends Animal {
