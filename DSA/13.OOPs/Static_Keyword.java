@@ -11,6 +11,7 @@ public class Static_Keyword {
     }
 }
 
+// Used to share the same variables or methods
 class Student {
     String name;
     int rollNo;
