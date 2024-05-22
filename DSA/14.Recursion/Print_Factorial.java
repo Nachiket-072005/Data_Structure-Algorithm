@@ -1,17 +1,17 @@
 public class Print_Factorial {
     public static int printFact(int n) {
-        if(n >= 0) {
-            if(n == 1 || n == 0) {
+        if (n >= 0) {
+            if (n == 1 || n == 0) {
                 return 1;
-            }
-            else {
+            } else {
                 return n * printFact(n - 1);
             }
-        }
-        else {
+        } else {
             return -1;
         }
     }
+
+    // TC = O(n) & SC = O(n)
     public static void main(String[] args) {
         int n = 7;
         int res = printFact(n);
