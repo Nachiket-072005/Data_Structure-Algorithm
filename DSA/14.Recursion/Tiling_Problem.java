@@ -6,14 +6,16 @@ public class Tiling_Problem {
         }
 
         // vertical tiles
-        int fnm1 = tilingProblem(n - 1);
+        // int fnm1 = tilingProblem(n - 1);
 
         // horizontal tiles
-        int fnm2 = tilingProblem(n - 2);
+        // int fnm2 = tilingProblem(n - 2);
 
         // total ways
-        int totTiles = fnm1 + fnm2;
-        return totTiles;
+        // int totTiles = fnm1 + fnm2;
+        // return totTiles;
+
+        return tilingProblem(n - 1) + tilingProblem(n - 2);
     }
 
     public static void main(String[] args) {
