@@ -1,4 +1,4 @@
-public class Find_Key {
+public class Find_Key_First_Occurence {
     public static int firstOccurance(int arr[], int key, int i) {
         if (i == arr.length) {
             return -1;
