@@ -10,6 +10,7 @@ public class Find_Key {
         return firstOccurance(arr, key, i + 1);
     }
 
+    // TC & SC = O(n)
     public static void main(String[] args) {
         int arr[] = { 4, 5, 7, 9, 2, 1, 4, 3 };
         System.out.println(firstOccurance(arr, 4, 0));
