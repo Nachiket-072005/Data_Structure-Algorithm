@@ -1,5 +1,5 @@
 public class Tiling_Problem {
-    public static int tilingProblem(int n) { // 2 x n
+    public static int tilingProblem(int n) { // 2 x n(width size)
         // Base Case
         if (n == 0 || n == 1) {
             return 1;
