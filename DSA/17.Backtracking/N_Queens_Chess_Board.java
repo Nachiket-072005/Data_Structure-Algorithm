@@ -27,6 +27,7 @@ public class N_Queens_Chess_Board {
         // Base Case
         if (row == board.length) {
             printBoard(board);
+            count++;
             return;
         }
 
@@ -49,8 +50,10 @@ public class N_Queens_Chess_Board {
         }
     }
 
+    static int count = 0;
+
     public static void main(String[] args) {
-        int n = 4;
+        int n = 5;
         char[][] board = new char[n][n];
 
         for (int i = 0; i < n; i++) {
@@ -60,5 +63,6 @@ public class N_Queens_Chess_Board {
         }
 
         nQueens(board, 0);
+        System.out.println("Total ways to solve N Queens : " + count);
     }
 }
