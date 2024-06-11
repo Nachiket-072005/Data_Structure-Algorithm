@@ -1,0 +1,34 @@
+class Cylinder {
+    float r, h;
+
+    Cylinder(float r, float h) {
+        this.r = r;
+        this.h = h;
+    }
+
+    public void getR() {
+        System.out.println(r);
+    }
+
+    public void getH() {
+        System.out.println(h);
+    }
+
+    public float calcArea() {
+        return ((2f * 3.14f * r * h) + (2f * 3.14f * r * r));
+    }
+
+    public float calcVol() {
+        return 3.14f * r * r * h;
+    }
+}
+
+public class Que_3 {
+    public static void main(String[] args) {
+        Cylinder c1 = new Cylinder(5, 15);
+        c1.getR();
+        c1.getH();
+        System.out.println(c1.calcArea());
+        System.out.println(c1.calcVol());
+    }
+}
