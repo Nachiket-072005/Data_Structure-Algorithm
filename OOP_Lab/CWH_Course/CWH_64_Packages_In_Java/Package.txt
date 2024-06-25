@@ -1,0 +1,4 @@
+Package is nothing but is one type of folder and It groups similar kind of files in it.
+There are two types of packeges in Java:
+1. Built-in Packages which were use in past lecture.
+2. Custome Packages which will use in future lecture.
