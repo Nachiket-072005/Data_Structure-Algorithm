@@ -1,5 +1,3 @@
-package Practice_Questions;
-
 public class Find_All_Ocurrances {
     public static void allOcurrances(int[] arr, int key, int i) {
         if (i == arr.length) {
