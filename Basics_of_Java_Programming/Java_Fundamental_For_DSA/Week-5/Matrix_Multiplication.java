@@ -26,8 +26,20 @@ public class Matrix_Multiplication {
 
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
-                // left for some reason
+                int newElement = 0;
+                for (int k = 0; k < row; k++) {
+                    newElement = newElement + A[i][k] * B[k][j];
+                }
+                C[i][j] = newElement;
             }
         }
+
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                System.out.print(C[i][j] + " ");
+            }
+            System.out.println();
+        }
+        in.close();
     }
 }
