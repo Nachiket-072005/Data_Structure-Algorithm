@@ -142,6 +142,45 @@ public class LL_1 {
         return helper(head, key);
     }
 
+    public void reverseLinkedList() { // O(n)
+        Node prev = null;
+        Node curr = head;
+        Node next;
+
+        while (curr != null) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        head = prev;
+    }
+
+    public void deleteNthFromEnd(int n) {
+        int sz = 0;
+        Node temp = head;
+
+        while (temp != null) {
+            temp = temp.next;
+            sz++;
+        }
+
+        if (n == sz) {
+            head = head.next;
+            return;
+        }
+
+        int i = 1;
+        int itoFind = sz - n;
+        Node prev = head;
+        while (i < itoFind) {
+            prev = prev.next;
+            i++;
+        }
+        prev.next = prev.next.next;
+        return;
+    }
+
     public static void main(String[] args) {
         LL_1 ll = new LL_1();
         ll.addFirst(1);
@@ -157,7 +196,11 @@ public class LL_1 {
 
         // val = ll.removeLast();
         // ll.printLL();
-        System.out.println(ll.recSearch(3));
-        System.out.println(ll.recSearch(10));
+        // System.out.println(ll.recSearch(3));
+        // System.out.println(ll.recSearch(10));
+
+        // ll.reverseLinkedList();
+        ll.deleteNthFromEnd(3);
+        ll.printLL();
     }
 }
