@@ -7,8 +7,8 @@ public class Divsum_Spoj {
         int N = 500001;
         int[] sumDivisor = new int[N];
 
-        for (int i = 1; i <= N; i++) {
-            for (int j = 2 * i; j <= N; j += i) {
+        for (int i = 1; i < N; i++) {
+            for (int j = 2 * i; j < N; j += i) {
                 sumDivisor[j] += i;
             }
         }

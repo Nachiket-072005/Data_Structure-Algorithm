@@ -5,7 +5,6 @@ public class Divisor_Of_Sieve {
         Scanner in = new Scanner(System.in);
 
         int n = in.nextInt();
-
         int[] divisor = new int[n + 1];
 
         for (int i = 1; i <= n; i++) {
